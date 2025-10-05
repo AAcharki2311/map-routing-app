@@ -1,0 +1,20 @@
+/* MapCanvas Component Styles */
+
+.map-canvas-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  overflow: hidden;
+}
+
+.map-canvas {
+  border: none;
+  background: #1a1a2e;
+  image-rendering: pixelated;
+  width: 100vw;
+  height: 100vh;
+  display: block;
+}
